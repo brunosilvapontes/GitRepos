@@ -15,4 +15,5 @@ $ nodemon -L
 
 ## How to use:
 Add the Header Accept: application/json
+
 Request a GET on localhost:3000/github/<PUT_A_GITHUB_USERNAME>
