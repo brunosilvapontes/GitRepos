@@ -1,4 +1,4 @@
-var requestLib = require('request-promise-native')
+const requestLib = require('request-promise-native')
 
 exports.getRepositories = (_username) => {
 	// Validate parameter
@@ -76,6 +76,5 @@ exports.getBranchesData = (_repository) => {
 			}
 
 			throw new Error(err.message)
-		})
-			
+		})			
 }
